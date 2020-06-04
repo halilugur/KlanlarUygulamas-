@@ -7,6 +7,7 @@
     {
         internal bool startTimer = false;
         internal bool startAtack = false;
+        internal int stopwatch = 0;
 
         public Form1()
         {
@@ -22,6 +23,7 @@
 
         private void button2_Click(object sender, EventArgs e)
         {
+            stopwatch = 0;
             startTimer = true;
         }
 
@@ -41,8 +43,9 @@
                         time = time.Length == 7 ? "0" + time : time;
                         String serverTime = time + " " + date;
                         String programTime = maskedTextBox2.Text + " " + maskedTextBox1.Text;
-
-                        if (serverTime.Equals(programTime))
+                        int second = int.Parse(maskedTextBox3.Text);
+                        label3.Text = second.ToString() + " - " + stopwatch.ToString();
+                        if (serverTime.Equals(programTime) && second <= stopwatch)
                         {
                             HtmlElement atackButton = webBrowser1.Document.GetElementById("troop_confirm_go");
                             atackButton.InvokeMember("Click");
@@ -51,6 +54,11 @@
                     }
                 }
             }
+            if (stopwatch >= 999)
+            {
+                stopwatch = 0;
+            }
+            else { stopwatch++; }
 
         }
 
