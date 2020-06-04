@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\bin\Debug\KlanlarUygulaması.exe
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\bin\Debug\KlanlarUygulaması.pdb
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\obj\Debug\KlanlarUygulaması.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\obj\Debug\KlanlarUygulaması.Form1.resources
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\obj\Debug\KlanlarUygulaması.Properties.Resources.resources
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\obj\Debug\KlanlarUygulaması.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\obj\Debug\KlanlarUygulaması.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\obj\Debug\KlanlarUygulaması.exe
+C:\Users\Administrator\source\repos\KlanlarUygulaması\KlanlarUygulaması\obj\Debug\KlanlarUygulaması.pdb
