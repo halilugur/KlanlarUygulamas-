@@ -51,6 +51,9 @@
                             atackButton.InvokeMember("Click");
                             startAtack = false;
                             button1.Enabled = true;
+                            maskedTextBox2.Enabled = true;
+                            maskedTextBox1.Enabled = true;
+                            maskedTextBox2.Enabled = true;
                         }
                     }
                 }
@@ -70,6 +73,9 @@
             {
                 startAtack = true;
                 button1.Enabled = false;
+                maskedTextBox2.Enabled = false;
+                maskedTextBox1.Enabled = false;
+                maskedTextBox2.Enabled = false;
             }
         }
     }
