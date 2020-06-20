@@ -44,12 +44,13 @@
                         String serverTime = time + " " + date;
                         String programTime = maskedTextBox2.Text + " " + maskedTextBox1.Text;
                         int second = int.Parse(maskedTextBox3.Text);
-                        label3.Text = second.ToString() + " - " + stopwatch.ToString();
+                        label5.Text = maskedTextBox2.Text;
                         if (serverTime.Equals(programTime) && second <= stopwatch)
                         {
                             HtmlElement atackButton = webBrowser1.Document.GetElementById("troop_confirm_go");
                             atackButton.InvokeMember("Click");
                             startAtack = false;
+                            button1.Enabled = true;
                         }
                     }
                 }
@@ -68,6 +69,7 @@
             if (null != element)
             {
                 startAtack = true;
+                button1.Enabled = false;
             }
         }
     }
